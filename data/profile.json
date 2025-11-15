@@ -1,0 +1,18 @@
+{
+  "name": "Cole D. Miles",
+  "title": "Student at the University of Montana",
+  "institution": "University of Montana",
+  "location": "Missoula, Montana, USA",
+  "email": "cole@example.com",
+  "summary": "I study and create at the intersection of creative practice (writing & painting) and software engineering. I explore interfaces — both user interfaces and the conceptual interfaces between disciplines.",
+  "keywords": [
+    "Writing",
+    "Painting",
+    "Sugar",
+    "Spice",
+    "Everything nice",
+    "Interface design",
+    "Software engineering"
+  ],
+  "avatar": "assets/media/avatar-placeholder.png"
+}

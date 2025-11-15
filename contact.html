@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Cole D. Miles</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="assets/media/avatar-placeholder.png" alt="" class="brand-avatar" />
+        <div class="brand-text">
+          <div>Cole D. Miles</div>
+          <div class="muted">Student at the University of Montana</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="cta active">Contact</a>
+        <button id="theme-toggle-contact" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="section">
+      <h1>Contact</h1>
+      <p class="lead">I prefer email — no server-side contact form here. Use the links below or copy the email address to your clipboard.</p>
+
+      <div class="contact-cards">
+        <div class="card contact">
+          <h3>Email</h3>
+          <p id="contact-email">cole@example.com</p>
+          <div class="contact-actions">
+            <a id="mailto-link" href="mailto:cole@example.com" class="button">Send email</a>
+            <button id="copy-email" class="button-outline">Copy email</button>
+          </div>
+        </div>
+
+        <div class="card contact">
+          <h3>Social</h3>
+          <ul>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a></li>
+            <li><a href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a></li>
+          </ul>
+        </div>
+
+        <div class="card contact">
+          <h3>Location</h3>
+          <p>Missoula, Montana, USA</p>
+        </div>
+      </div>
+
+      <p class="muted">Note: If you want an embedded contact form you can connect services like Formspree or Netlify Forms (they work with static sites). This repo keeps everything serverless and private.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© <span id="footer-year-contact"></span> Cole D. Miles</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
